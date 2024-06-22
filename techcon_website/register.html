@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Final project on HTML Module</title>
+    <style>
+        footer {
+            text-align: center;
+            padding: 5px;
+            background-color: #abbaba;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <form action="/submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="example@domain.com" required><br>
+            <label for="password">Password:</label>
+            <input type="password" minlength="8" maxlength="12" required><br>
+            <input type="checkbox" required>
+                <b>Terms and condition</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <small>
+            Copyright &copy;2024, Developed by Abrham
+        </small>
+    </footer>
+</body>
+
+</html>
